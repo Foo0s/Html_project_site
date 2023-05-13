@@ -2,6 +2,17 @@ body{
     background-color: rgb(244, 223, 195);
 }
 
+hr{
+    width: 70%;
+    color: gray;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 /*Верхняя часть сайта - шапка, меню....*/
 .block_head{
     display: flex;
@@ -45,16 +56,57 @@ body{
     color: rgb(84, 74, 74);
     border-radius: 10px;
     font-weight: bold;
-
+    margin-top: -10px;
+    text-align: center;
 }
 
 /*Верхняя часть сайта - шапка, меню....*/
 
 /*Боковые стороны сайта.*/
 .block_left{
-    width: 20%;
-    float: left;
-    background-color: rgb(238, 156, 4);
+    position: fixed;
+    margin-top: 10%;
+    width: 18%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    order: 1;
+    margin-left: 5%;
+    height: auto;
+    border: 2px ridge gray;
+}
+
+.block_left_head{
+    position: fixed;
+    margin-top: -2%;
+    width: inherit;
+    background-color: rgb(228, 216, 216);
+    border-radius: 12px 12px 0px 0px;
+    text-align: center;
+    border: 2px ridge gray;
+}
+
+.block_left_head > h2{
+    font-size: 26px;
+    color:rgb(17, 75, 167);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block_left__a{
+    padding-top: 25px;
+    font-size: 26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block_left__a:hover{
+    color:rgb(73, 122, 236);
+}
+
+.block_left__a > a:hover{
+    color:rgb(21, 25, 31);
+}
+
+.block_left__a > a {
+    text-decoration: none;
 }
 
 .block_right{
@@ -67,14 +119,15 @@ body{
 /*Середина сайта.*/
 .block_main{
     background-color: whitesmoke;
-    width: 70%;
-    margin: auto;
-    display: flex;
+    width: 60%;
     margin-top: 2%;
     box-shadow: 10px black;
     border-radius: 6px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    order: 2;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    margin-left:30%;
 }
 
 .block_main_header{
@@ -86,7 +139,7 @@ body{
     justify-content: center;
 }
 
-.block_main_h1{
+.block_main_h{
     color:rgb(17, 75, 167);
     font-size: 34px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -103,7 +156,47 @@ body{
     text-align: justify;
     margin-right: 80px;
     font-size: 24px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.block_main_dd{
+    margin-top: 70px;
+    line-height: 40px;
+    margin-left: 80px;
+    text-align: justify;
+    margin-right: 80px;
+    font-size: 24px;
+}
+
+.block_main_chema{
+    background-color: rgb(234, 220, 220);
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding: 20px;
+}
+
+.block_main_chema > p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 40px;
+}
+
+.block_main_chema > div{
+    border: 2px rgb(158, 147, 147) double;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block_main_dd_ul{
+    line-height: 40px;
+    margin-left: 80px;
+    text-align: justify;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .sp_1{
@@ -114,5 +207,9 @@ body{
 .sp_2{
     color: rgb(69, 64, 64);
     font-weight: bold;
+}
+
+.block_main__img{
+    border-radius: 12px;
 }
 /*Середина сайта.*/
