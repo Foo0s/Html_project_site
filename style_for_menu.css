@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(244, 223, 195);
+    background-color: #B5CE88;
 }
 
 hr{
@@ -58,6 +58,9 @@ hr{
     font-weight: bold;
     margin-top: -10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Верхняя часть сайта - шапка, меню....*/
@@ -80,7 +83,7 @@ hr{
     margin-top: -2%;
     width: inherit;
     background-color: rgb(228, 216, 216);
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 12px 12px 8px 8px;
     text-align: center;
     border: 2px ridge gray;
 }
@@ -199,6 +202,38 @@ hr{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.block_main__browsers{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.block_br > img{
+    width: 10%;
+    height: 10%;
+}
+
+.block_text_br {
+    background-color: #D5D1AA;
+    border-radius: 12px 12px 8px 8px;
+    height: 90%;
+}
+
+.block_text_br > p{
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid #C3C2A4;
+}
+
 .sp_1{
     color:rgb(17, 75, 167);
     font-weight: bold;
@@ -209,7 +244,19 @@ hr{
     font-weight: bold;
 }
 
-.block_main__img{
-    border-radius: 12px;
+.sp_3{
+    color: #207B6E;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 80px;
 }
+
+.block_main__img{
+    border-radius: 30px;
+    margin-left: 20%;
+    width: 60%;
+    height: 40%;
+}
+
 /*Середина сайта.*/
