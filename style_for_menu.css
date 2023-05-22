@@ -76,16 +76,18 @@ hr{
     margin-left: 5%;
     height: auto;
     border: 2px ridge gray;
+    padding-top: 30px;
 }
 
 .block_left_head{
     position: fixed;
-    margin-top: -2%;
+    margin-top: -3%;
     width: inherit;
     background-color: rgb(228, 216, 216);
-    border-radius: 12px 12px 8px 8px;
+    border-radius: 20px;
     text-align: center;
     border: 2px ridge gray;
+    margin-left: -2px;
 }
 
 .block_left_head > h2{

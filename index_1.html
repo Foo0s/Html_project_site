@@ -4,6 +4,7 @@
             <title>История Web-Technologes</title>
             <meta charset="UTF-8">
             <link rel="stylesheet" href="style_for_menu.css">
+            <link rel="stylesheet" href="style_menu_and_histori.css">
         </head>
         <body>
             <div>
@@ -31,7 +32,7 @@
                             К середине 2008 года число пользователей, регулярно использующих Интернет, <span class="sp_2">составило около 1,5 млрд человек (около четверти населения Земли)</span>.</p>
                         <p><span class="sp_1">Всемирная паутина</span> (англ. World Wide Web) — распределенная система, предоставляющая доступ к связанным между собой документам, расположенным на различных компьютерах, подключенных к Интернету. Всемирную паутину образуют миллионы web-серверов. Большинство ресурсов всемирной паутины представляет собой гипертекст. Гипертекстовые документы, размещаемые во всемирной паутине, называются web-страницами. Несколько web-страниц, объединенных общей темой, дизайном, а также связанных между собой ссылками и обычно находящихся на одном и том же web-сервере, называются web-сайтом. Всемирная паутина вызвала настоящую революцию в информационных технологиях и бум в развитии Интернета. Для обозначения Всемирной паутины также используют слово «веб» (англ. web) и «WWW».</p>
                         <hr>
-                        <h3 class="block_main_h">Хронология события по годам</h3>
+                        <h3 class="block_main_h" id="hronologies">Хронология события по годам</h3>
                         <p><span class="sp_2">1969</span> - сеанс связи ARPANET<br>
                             <span class="sp_2">1971</span> - отправка первого email<br>
                             <span class="sp_2">1983</span> -  ARPANET переходит на TCP/IP<br>
@@ -44,7 +45,7 @@
                         <h2 class="block_main_h">Компоненты WWW</h2>
                         <dl>
                             <dt class="block_main_dd">Функционирование сервиса обеспечивается четырьмя составляющими:</dt><br>
-                                <dd>
+                                <dd id="components_www">
                                     <ul class="block_main_dd_ul">
                                         <li><span class="sp_2">URL/URI</span> — унифицированный способ адресации и идентификации сетевых ресурсов;</li>
                                         <li><span class="sp_2">HTML</span> — язык гипертекстовой разметки веб-документов;</li>
@@ -77,7 +78,7 @@
                         </div><br>
                         <hr>
                         <h3 class="block_main_h">Язык гипертекстовой разметки HTML</h3>
-                        <p><span class="sp_1">HTML</span> (<span class="sp_2">HyperText Markup Language 'https//ru.wikipedia.org/wiki/HTML'</span>) — стандартный язык разметки документов
+                        <p><span class="sp_1" id="html_language">HTML</span> (<span class="sp_2">HyperText Markup Language 'https//ru.wikipedia.org/wiki/HTML'</span>) — стандартный язык разметки документов
                              во Всемирной паутине. Большинство веб-страниц созданы при помощи языка HTML. Язык HTML интерпретируется
                               браузером и отображается в виде документа в удобной для человека форме. HTML является приложением SGML
                                (<span class="sp_2">стандартного обобщённого языка разметки</span>) и соответствует международному стандарту ISO 8879.</p>
@@ -92,7 +93,7 @@
                                     языка HTML стала жертвой коммерциализации www и потребностей в мультимедийном и графическом оформлении.</p>
                         <br><hr>
                         <h3 class="block_main_h">Протокол HTTP</h3>
-                        <p><span class="sp_1">HTTP</span> (<span class="sp_2">HyperText Transfer Protocol</span>) — протокол передачи гипертекста, текущая версия HTTP/1.1 (RFC 2616).
+                        <p><span class="sp_1" id="HyperText_protocol">HTTP</span> (<span class="sp_2">HyperText Transfer Protocol</span>) — протокол передачи гипертекста, текущая версия HTTP/1.1 (RFC 2616).
                              Этот протокол изначально был предназначен для обмена гипертекстовыми документами, но сейчас его
                               возможности существенно расширены в сторону передачи двоичной информации.</p>
                         <p><span class="sp_1">HTTP</span> — типичный клиент-серверный протокол, обмен сообщениями идёт по схеме «запрос-ответ» в виде <span class="sp_2">ASCII</span>-команд.
@@ -104,7 +105,7 @@
                              протоколов, в первую очередь, основанных на языке XML (<span class="sp_2">SOAP, XML-RPC, SiteMap, RSS </span> и проч.).</p>
                         <br><hr>
                         <h3 class="block_main_h">Общий шлюзовый интерфейс CGI</h3>
-                        <p><span class="sp_1">CGI</span> (<span class="sp_2">Common Gateway Interface</span>) — механизм доступа к программам на стороне веб-сервера.
+                        <p><span class="sp_1" id="CGI_sh">CGI</span> (<span class="sp_2">Common Gateway Interface</span>) — механизм доступа к программам на стороне веб-сервера.
                              Спецификация CGI была разработана для расширения возможностей сервиса www за счет подключения
                               различного внешнего программного обеспечения. При использовании CGI веб-сервер представляет
                                браузеру доступ к исполнимым программам, запускаемым на его (серверной) стороне через
@@ -131,7 +132,7 @@
                         <p><span class="sp_1">Браузер, веб-обозреватель</span> (<span class="sp_2">web-browser</span>) — клиентское приложение для доступа к веб-серверам по протоколу HTTP и просмотра веб-страниц. Как правило браузеры дополнительно поддерживают и ряд других протоколов (например <span class="sp_2">ftp, file, mms, pop3</span>).</p>
                         <p>Первые HTTP-клиенты были консольными и работали в текстовом режиме, позволяя читать гипертекст и перемещаться по ссылкам. Сейчас консольные браузеры (такие, как lynx, w3m или links) практически не используются рядовыми посетителями веб-сайтов. Тем не менее такие браузеры весьма полезны для веб-разработчиков, так как позволяют «увидеть» веб-страницу «глазами» поискового робота.
                         <p>Исторически первым браузером в современном понимании (т.е. с графическим интерфейсом и т.д.) была программа <span class="sp_2">NCSA Mosaic, разработанная Марком Андерисеном и Эриком Бина. Mosaic имел довольно ограниченные возможности, но его открытый исходный код стал основой для многих последующих разработок.</p>
-                        <h4 class="sp_3">Существует большое число программ-браузеров, но наибольшей популярностью пользуются следующие: </h4>
+                        <h4 class="sp_3" id="brow_all">Существует большое число программ-браузеров, но наибольшей популярностью пользуются следующие: </h4>
                         <img src="image/browsers.JPG" class="block_main__img">
                         <div class="block_main__browsers">
                             <div class="block_br">
@@ -160,14 +161,15 @@
                             </div>
                         </div>
                         <br><hr>
-                        <h3 class="block_main_h">Эволюция Веб сайтов</h3>
+                        <h3 class="block_main_h" id="evolution">Эволюция Веб сайтов</h3>
                         <p><span class="sp_1">Web 1.0</span> - до .com bubble. Статичное содержание страниц, аскетичный дизайн, чаты, форумы, гостевые книги.<br><br>
 
                             <span class="sp_1">Web 2.0</span> - новое поколение сайтов (после 2001) User-generated content. Предоставление и потребление API. RSS. Обновление страниц «на лету» (ajax).<br><br>
                             
                             <span class="sp_1">Web 3.0</span> - ??? Community-generated content. Семантическая паутина. Уникальные идентификаторы и микроформаты.</p><br><br>
+                        <br><hr><br>
+                        <h1 class="block_main_h">Ссылки на другие источники</h1><br><br>
                         <div class="block_main__ictoch">
-                            <h1 class="block_main_h">Ссылки на другие источники</h1>
                             <div class="block_a">
                                 <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82">Википедия - Интернет</a>
                             </div>
@@ -178,6 +180,7 @@
                                 <a href="https://www.w3schools.com/browsers/default.asp">Статистика Browsers</a>
                             </div>
                         </div>
+                        <br><br>
                     </div>
                     <div class="block_left">
                         <div class="block_left_head">
@@ -185,16 +188,18 @@
                         </div>
                         <div>
                             <ul>
-                                <li class="block_left__a"><a href="#">Хронология событий</a></li>
-                                <li class="block_left__a"><a href="#">Компоненты WWW</a>
+                                <li class="block_left__a"><a href="#hronologies">Хронология событий</a></li>
+                                <li class="block_left__a"><a href="#components_www">Компоненты WWW</a>
                                 <ul>
-                                    <li class="block_left__a"><a href="#">Язык гипертекстовой разметки HTML</a></li>
+                                    <li class="block_left__a"><a href="#html_language">Язык гипертекстовой разметки HTML</a></li>
                                 </ul>
                                 </li>
-                                <li class="block_left__a"><a href="#">Протокл HTTP</a>
+                                <li class="block_left__a"><a href="#HyperText_protocol">Протокол HTTP</a>
                                 <ul>
-                                    <li class="block_left__a"><a href="#">Общий шлюзовый интерфейс CGI</a></li>
+                                    <li class="block_left__a"><a href="#CGI_sh">Общий шлюзовый интерфейс CGI</a></li>
                                 </ul>
+                                <li class="block_left__a"><a href="#brow_all">Программное обеспечение сервиса WWW</a></li>
+                                <li class="block_left__a"><a href="#evolution">Эволюция Веб-сайтов</a></li>
                                 </li>
                             </ul>
                         </div>
