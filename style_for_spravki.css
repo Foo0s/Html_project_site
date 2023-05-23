@@ -1,0 +1,106 @@
+.block_main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    margin-top: 80px;
+    height: 100%;
+}
+
+.block_main__left{
+    width: 40%;
+}
+
+.block_main__left > img{
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 50%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.block_main__right{
+    width: 50%;
+    margin-left: 400px;
+    text-align: justify;
+    position: absolute;
+    margin-left: 20%;
+    font-size: 24px;
+    color: rgb(49, 49, 49);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+}
+
+.block_main__text{
+    float: left;
+    margin-left: -50%;
+    font-size: 20px;
+    color:rgb(49, 49, 49);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.block_main__footer{
+    float: right;
+    background-color: orangered;
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    margin-top: 19%;
+    margin-right: 15%;
+    text-align: center;
+    position: relative;
+}
+
+.block_main__footer > a{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    left: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+
+.block_footer{
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -10px;
+}
+
+.block_footer__right{
+    float: left;
+    margin-left: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.block_fot_center > a{
+    margin-top: -20px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.block_footer__center{
+    width: 70%;
+    margin: auto;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(217, 212, 212);
+    text-align: center;
+    margin-top: 2%;
+}
+
+.block_footer__left{
+    width: 20%;
+    float: right;
+    text-decoration: center;
+    margin-top: -100px;
+    color: rgb(217, 212, 212);
+    font-size: 23px;
+}

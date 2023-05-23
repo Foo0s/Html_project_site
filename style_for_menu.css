@@ -262,3 +262,44 @@ hr{
 }
 
 /*Середина сайта.*/
+
+/*Подвал сайта*/
+.block_footer_s{
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -10px;
+}
+
+.block_footers__right{
+    float: left;
+    margin-left: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.block_fots_center > a{
+    margin-top: -20px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.block_footers__center{
+    width: 70%;
+    margin: auto;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(217, 212, 212);
+    text-align: center;
+    margin-top: 2%;
+}
+
+.block_footesr__left{
+    width: 20%;
+    float: right;
+    text-decoration: center;
+    margin-top: -100px;
+    color: rgb(217, 212, 212);
+    font-size: 23px;
+}
